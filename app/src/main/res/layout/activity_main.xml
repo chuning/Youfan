@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#eaeaea">
+
+        <FrameLayout
+            android:id="@+id/root_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#eaeaea">
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/navigationBar"
+        android:baselineAligned="true"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/main_event_list"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="openEventList"
+            android:src="@drawable/food_bowl"
+            android:tint="@color/navigationImageUnselect"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/main_start_event"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="openNewEvent"
+            android:src="@drawable/iconaddlight"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:id="@+id/main_me"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="openAboutMe"
+            android:src="@drawable/me"
+            android:tint="@color/navigationImageUnselect"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+</LinearLayout>

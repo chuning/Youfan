@@ -1,0 +1,44 @@
+<resources>
+    <string name="facebook_app_id">234244716919995</string>
+    <style name="google_maps_key">MAP_KEY</style>
+    <string name="youfan_api_dev_path">http://youfanapp-dev.wx32m6ieaf.us-east-1.elasticbeanstalk.com/</string>
+    <string name="wechat_app_id">wx0e1452305a680745</string>
+
+    <string name="app_name">有饭</string>
+    <string name="start_party_hint">随便说些什么，关于这个饭局（必填）...</string>
+    <string name="start_time">开始时间</string>
+    <string name="choose_restaurant">选择饭馆</string>
+    <string name="people_limit">人数限制(包括自己)</string>
+    <string name="start_party">发起饭局</string>
+    <string name="done">完成</string>
+    <string name="event">饭局</string>
+    <string name="add_party">添加饭局</string>
+    <string name="me">我的</string>
+    <string name="party_detail">饭局详情</string>
+    <string name="want_to_join">我要参加</string>
+    <string name="quit_event">退出饭局</string>
+    <string name="detail">详情</string>
+    <string name="discuss">讨论</string>
+    <string name="discuss_template">讨论(%1$d)</string>
+    <string name="people_attented">参加的人</string>
+    <string name="party_location">餐馆位置</string>
+    <string name="party_introduction">饭局介绍</string>
+    <string name="edit">编辑</string>
+    <string name="party_initiated">我发起的饭局</string>
+    <string name="party_joined">我参加的饭局</string>
+    <string name="enter_location">输入餐馆名字/地址</string>
+    <string name="direction">查询路线</string>
+    <string name="log_in_title">登录有饭，加入饭局</string>
+    <string name="log_in_with_wechat">微信登陆</string>
+    <string name="add_comment">发送</string>
+    <string name="no_comment">暂无评论，快来吼一嗓子吧</string>
+    <string name="no_event_my_event">还没有活动哎，找小伙伴约起来吧！</string>
+    <string name="mile">mile</string>
+    <string name="people">人</string>
+    <string name="missing_field">oops...是不是有一项忘填啦？</string>
+    <string name="cannot_edit">不能编辑...</string>
+    <string name="cannot_add">添加失败...</string>
+    <string name="attended_people_full">参加的人（已满！）</string>
+    <string name="attended_people_template">参加的人（%1$d）</string>
+    <string name="self_introduction">介绍下你自己吧</string>
+</resources>

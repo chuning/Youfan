@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- This would set the toolbar's background color -->
+        <item name="android:background">@color/colorPrimary</item>
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@android:color/holo_blue_light</item>
+        <!-- android:actionMenuTextColor is the color of the text of action (menu) items  -->
+        <item name="actionMenuTextColor">@android:color/holo_green_light</item>
+        <!-- Enable these below if you want clicking icons to trigger a ripple effect -->
+        <!--
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        -->
+    </style>
+
+    <!-- This configures the styles for the title within the Toolbar  -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ButtonTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- This would set the toolbar's background color -->
+        <item name="android:background">@color/colorPrimary</item>
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@android:color/holo_blue_light</item>
+        <!-- android:actionMenuTextColor is the color of the text of action (menu) items  -->
+        <item name="actionMenuTextColor">@android:color/holo_green_light</item>
+        <item name="android:minHeight">10dp</item>
+        <item name="android:minWidth">10dp</item>
+        <!-- Enable these below if you want clicking icons to trigger a ripple effect -->
+        <!--
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        -->
+    </style>
+
+    <style name="HeaderText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#616161</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="detailText.Text" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#727272</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="CustomActionBarTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+    </style>
+
+    <style name="MyActionBarTabText"
+        parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+</resources>

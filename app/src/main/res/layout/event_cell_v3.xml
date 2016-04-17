@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cardview_light_background"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp">
+
+                <ImageView
+                    android:id="@+id/profile_picture"
+                    android:layout_width="@dimen/event_cell_profile_image_size"
+                    android:layout_height="@dimen/event_cell_profile_image_size"
+                    android:src="@drawable/youfanicon"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/topic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/orange"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:text="码农姐姐来聊一聊人生" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/host_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray_holo_dark"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:text="Chuning"/>
+
+                        <TextView
+                            android:id="@+id/host_bio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:textColor="@color/lightgray"
+                            android:textSize="14sp"
+                            android:text="哈哈女侠"/>
+
+                        <TextView
+                            android:id="@+id/event_distance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical|right"
+                            android:text="0.5mile"
+                            android:textColor="@color/lightgray"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_weight="1"
+                android:background="@color/lightgray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp"
+                android:background="@color/cardview_light_background">
+
+                <TextView
+                    android:id="@+id/event_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Feb 27"
+                    android:textSize="12sp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/normalgray"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/event_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="·7:19pm, Sat"
+                    android:textColor="@color/normalgray"/>
+
+                <TextView
+                    android:id="@+id/event_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="  |  henry's hunan"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/normalgray"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</FrameLayout>

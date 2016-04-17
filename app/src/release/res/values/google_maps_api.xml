@@ -1,0 +1,21 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=9B:DA:DD:30:43:04:1D:1D:CD:01:A8:20:97:24:02:18:16:F6:7B:CF%3Bcom.expedia.bookings.presenter.hotel
+
+    You can also add your credentials to an existing key, using this line:
+    9B:DA:DD:30:43:04:1D:1D:CD:01:A8:20:97:24:02:18:16:F6:7B:CF;com.expedia.bookings.presenter.hotel
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        YOUR_KEY_HERE
+    </string>
+</resources>
